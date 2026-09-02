@@ -1,0 +1,18 @@
+berth_id,type_of_berth,cargo_types,max_draught_m,quay_length_m,max_dwt,ownership
+Berth 1,Gen. Cargo,General Cargo,7.00,125,4000,Coast Guard
+Berth 2,General Cargo,General Cargo,10.50,198,30000,Common User
+Berth 3,General/Liquid Cargo,General Cargo;Liquid Cargo,10.30,198,30000,Common User
+Berth 4,Cruise/Gen. Cargo/Chemicals/Edible Oil,Cruise;General Cargo;Chemicals;Edible Oil,9.50,198,30000,Common User
+Berth 5,Gen. Cargo/Bulk Cement/Edible Oil/Bitumen,General Cargo;Bulk Cement;Edible Oil;Bitumen,9.50,198,30000,Common User
+Berth 6,Gen. Cargo/Edible Oil,General Cargo;Edible Oil,9.50,198,30000,Common User
+Berth 7,Gen. Cargo/Bitumen/IOF,General Cargo;Bitumen;Iron Ore Fines,9.50,198,30000,Common User
+Berth 8,Gen. Cargo/IOP(Mech)/IOF,General Cargo;Iron Ore Pellets;Iron Ore Fines,12.50,300,60000,Common User
+Berth 9,LPG/Edible Oil/Bitumen/POL/Chemicals,LPG;Edible Oil;Bitumen;POL;Chemicals,10.50,330,45000,Common User
+Berth 10,Crude Oil/POL Product,Crude Oil;POL Products,14.00,320,85000,Captive
+Berth 11,POL Product,POL Products,14.00,320,85000,Captive
+Berth 12,POL Product/LPG/Edible Oil/Bitumen/Chemicals,POL Products;LPG;Edible Oil;Bitumen;Chemicals,12.50,320,50000,Common User
+Berth 13,LPG/Petro Chemicals,LPG;Petrochemicals,14.00,350,85000,Common User
+Berth 14,Container/Other Cargo,Container;Other Cargo,14.00,350,90000,PPP
+Berth 15,Coal-UPCL(Mech)/Edible Oil/Other Liquid Cargo,Coal;Edible Oil;Other Liquid Cargo,14.00,350,90000,Captive
+Berth 16,Coal/Other Bulk Cargo,Coal;Other Bulk Cargo,14.00,325,90000,PPP
+SPM,SPM Crude Oil,Crude Oil,21.00,,300000,Common User

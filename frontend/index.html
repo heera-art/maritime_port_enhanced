@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YellowSense Maritime Intelligence — Predictive Cargo & Decision Support System</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Plotly.js CDN for high-performance interactive charting -->
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+<body>
+
+  <!-- Top Glassmorphism Header -->
+  <header class="ys-header">
+    <div class="ys-header-left">
+      <img src="assets/logo11.png" alt="YellowSense Logo" class="ys-logo" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'40\' height=\'40\'><rect width=\'40\' height=\'40\' fill=\'%23F59E0B\' rx=\'8\'/><text x=\'50%\' y=\'55%\' dominant-baseline=\'middle\' text-anchor=\'middle\' fill=\'%23FFFFFF\' font-weight=\'bold\' font-size=\'20\'>YS</text></svg>'">
+      <div>
+        <div class="ys-header-title">Maritime Intelligence Platform</div>
+        <div class="ys-header-subtitle">AI-POWERED PREDICTIVE CARGO ANALYTICS & DECISION SUPPORT SYSTEM</div>
+      </div>
+    </div>
+    <div class="ys-header-right">
+      <div class="ys-live-badge">
+        <div class="ys-live-dot"></div>
+        LIVE DATA
+      </div>
+      <div class="ys-timestamp" id="live-timestamp">UTC 2026-08-17 12:00</div>
+    </div>
+  </header>
+
+  <main class="ys-container">
+
+    <!-- Top Hero Objective Banner -->
+    <section class="hero-banner">
+      <div>
+        <div style="font-size: 11px; font-weight: 800; color: #D97706; letter-spacing: 0.8px; text-transform: uppercase;">PRIMARY CORE CAPABILITY</div>
+        <div class="hero-banner-title">Predictive Cargo Analytics — See What's Coming. Plan Ahead.</div>
+        <div class="hero-banner-subtitle">
+          <b>Operational Flow:</b> Historical Cargo Data &rarr; ML Analysis &rarr; Cargo Forecast &rarr; Commodity & Trade Demand &rarr; Risk & Anomaly Detection &rarr; Port Planning Decisions
+        </div>
+      </div>
+      <div class="hero-banner-badge">
+        <span>⚓</span> <span>Core Capability: Cargo Volume & Arrival Forecasting</span>
+      </div>
+    </section>
+
+    <!-- Navigation Tabs Bar -->
+    <nav class="nav-tabs" id="nav-tabs">
+      <button class="nav-tab active" onclick="switchTab('tab-executive')">Executive Dashboard</button>
+      <button class="nav-tab" onclick="switchTab('tab-vessels')">Vessel Intelligence</button>
+      <button class="nav-tab" onclick="switchTab('tab-cargo-forecasting')">Cargo Forecasting</button>
+      <button class="nav-tab" onclick="switchTab('tab-cargo-routing')">Cargo Routing</button>
+      <button class="nav-tab" onclick="switchTab('tab-trade')">Trade Intelligence</button>
+      <button class="nav-tab" onclick="switchTab('tab-anomaly')">Anomaly Detection</button>
+      <button class="nav-tab" onclick="switchTab('tab-incentive')">Incentive Engine</button>
+      <button class="nav-tab" onclick="switchTab('tab-twin')">Digital Twin</button>
+      <button class="nav-tab" onclick="switchTab('tab-copilot')">AI Maritime Copilot</button>
+      <button class="nav-tab" onclick="switchTab('tab-pipeline')">Data Pipeline</button>
+    </nav>
+
+    <!-- TAB 1: Executive Dashboard -->
+    <div id="tab-executive" class="tab-content active"></div>
+
+    <!-- TAB 2: Vessel Intelligence -->
+    <div id="tab-vessels" class="tab-content"></div>
+
+    <!-- TAB 3: Cargo Forecasting -->
+    <div id="tab-cargo-forecasting" class="tab-content"></div>
+
+    <!-- TAB 4: Cargo Routing -->
+    <div id="tab-cargo-routing" class="tab-content"></div>
+
+    <!-- TAB 5: Trade Intelligence -->
+    <div id="tab-trade" class="tab-content"></div>
+
+    <!-- TAB 6: Anomaly Detection -->
+    <div id="tab-anomaly" class="tab-content"></div>
+
+    <!-- TAB 7: Incentive Engine -->
+    <div id="tab-incentive" class="tab-content"></div>
+
+    <!-- TAB 8: Digital Twin -->
+    <div id="tab-twin" class="tab-content"></div>
+
+    <!-- TAB 9: AI Maritime Copilot -->
+    <div id="tab-copilot" class="tab-content"></div>
+
+    <!-- TAB 10: Data Pipeline -->
+    <div id="tab-pipeline" class="tab-content"></div>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+berth_id,capacity_mmt,as_on_date,category
+Berth 1,0.5,2025-03-31,Coast Guard
+Berth 2,3.0,2025-03-31,Common User
+Berth 3,3.4,2025-03-31,Common User
+Berth 4,2.0,2025-03-31,Common User
+Berth 5,1.9,2025-03-31,Common User
+Berth 6,1.7,2025-03-31,Common User
+Berth 7,2.5,2025-03-31,Common User
+Berth 8,6.0,2025-03-31,Common User
+Berth 9,3.2,2025-03-31,Common User
+Berth 10,13.3,2025-03-31,Captive
+Berth 11,12.4,2025-03-31,Captive
+Berth 12,3.3,2025-03-31,Common User
+Berth 13,4.0,2025-03-31,Common User
+Berth 14,8.3,2025-03-31,PPP
+Berth 15,13.8,2025-03-31,Captive
+Berth 16,6.7,2025-03-31,PPP
+SPM,19.1,2025-03-31,Common User
